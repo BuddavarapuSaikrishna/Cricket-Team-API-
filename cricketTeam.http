@@ -16,14 +16,16 @@ Content-Type:application/json
 
 ###
 
-DELETE http://localhost:3000/players/1 
+DELETE http://localhost:3000/players/3 
 
 
 ###
 
 
-Put http://localhost:3000/players/6/
+Put http://localhost:3000/players/2/
 Content-Type:application/json 
+
+
 
 {
   "playerName": "Maneesh",
@@ -34,5 +36,5 @@ Content-Type:application/json
 ###
 
 
-GET http://localhost:3000/players/1
+GET http://localhost:3000/players/2
 
